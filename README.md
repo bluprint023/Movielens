@@ -1,4 +1,6 @@
 # Movie Recommendation System
+![image](https://github.com/user-attachments/assets/6086e757-a4a5-4d7e-b391-5ce96af1640b)
+
 ## Overview
 This repository contains a content-based movie recommendation system that leverages movie metadata including genres and tags to generate personalized movie recommendations. The system uses TF-IDF vectorization and cosine similarity to identify movies with similar content characteristics.
 ## Features
