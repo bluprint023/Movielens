@@ -72,13 +72,14 @@ The recommendation function follows these steps:
 - **Hybrid Recommendation**: Combine content-based filtering with collaborative filtering to improve accuracy.
 - **Word Embeddings**: Use advanced NLP techniques like **Word2Vec** or **BERT** instead of TF-IDF.
 - **Weighted Tag Importance**: Experiment with different weightings for genres and tags.
+- **Hosting and a Front-End**: Perhaps the biggest improvement would be hosting the back-end and develop a front-end for ease of use.
 
 ## Usage Guide & Example Output
 To use the recommendation system, simply call the function with a movie title and the number of recommendations:
 
 ### Example Code:
 ```python
-recommend_movies_content("Toy Story", top_n=5)
+recommend_movies_content("Toy Story (1995)", top_n=5)
 ```
 
 ### Expected Output:
